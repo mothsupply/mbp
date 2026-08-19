@@ -30,4 +30,6 @@ let buffer: [u8; 12] = [
 let frame = MbpFrame::parse(&buffer).unwrap();
 assert_eq!(frame.message_id, 1);
 assert_eq!(frame.payload, &[0xDE, 0xAD, 0xBE, 0xEF]);
+```
 
+## 🔧 Prérequis de compilation
