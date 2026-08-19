@@ -1,0 +1,6 @@
+[package]
+name = "mbp"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
