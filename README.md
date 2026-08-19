@@ -1,6 +1,10 @@
-# Moth Binary Protocol (MBP)
+# Moth Binary Protocol (MBP) 🦋
 
-Protocole binaire ultra-rapide, zéro allocation, `#![no_std]` pour le framework Mothc.
+*MBP* est un protocole de communication binaire ultra-rapide, à zéro allocation, conçu spécifiquement pour l'architecture microservices du framework Mothc.
+​Il remplace les formats lourds (comme JSON ou XML) par un flux d'octets strictement typé, prédictible et exécutable avec une complexité temporelle de \mathcal{O}(1). Ce protocole est la colonne vertébrale des échanges internes (RPC) du système e-commerce de Mothc.
+
+
+
 
 ## Structure de la Trame (8 octets + Payload)
 
